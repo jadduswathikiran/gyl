@@ -1,3 +1,4 @@
+ google
 # Python Program to find the area of triangle
 
 a = 5
@@ -15,3 +16,22 @@ s = (a + b + c) / 2
 # calculate the area
 area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
 print('The area of the triangle is %0.2f' %area)
+
+import java.util.Scanner;
+
+public class EvenOdd {
+
+    public static void main(String[] args) {
+
+        Scanner reader = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = reader.nextInt();
+
+        if(num % 2 == 0)
+            System.out.println(num + " is even");
+        else
+            System.out.println(num + " is odd");
+    }
+}
+ master
